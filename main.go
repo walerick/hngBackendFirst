@@ -30,8 +30,8 @@ func main() {
 }
 
 func apiHandler(w http.ResponseWriter, r *http.Request) {
-	slackName := r.URL.Query().Get("slack_name")
-	track := r.URL.Query().Get("track")
+	slackName := r.URL.Query().Get("kaizen")
+	track := r.URL.Query().Get("backend")
 
 	// Get current UTC time and format it
 	currentTime := time.Now().UTC()
