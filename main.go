@@ -37,7 +37,7 @@ func apiHandler(w http.ResponseWriter, r *http.Request) {
 	currentTime := time.Now().UTC()
 	currentTimeFormatted := currentTime.Format("2006-01-02T15:04:05Z")
 
-	githubFileURL := "https://github.com/walerick/hngBackendFirst/blob/main/src/main.go"
+	githubFileURL := "https://github.com/walerick/hngBackendFirst/blob/main/main.go"
 	githubRepoURL := "https://github.com/walerick/hngBackendFirst.git"
 
 	// Create the response struct
